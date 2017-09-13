@@ -6,7 +6,13 @@ namespace HelloVisualStudio
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(SayHello());
+            Console.ReadLine();
+        }
+
+        static string SayHello()
+        {
+            return "Hello C#";
         }
     }
 }
